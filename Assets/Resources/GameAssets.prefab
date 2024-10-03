@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7680095953256873742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5637477067001114245}
+  - component: {fileID: 6124269343868036415}
+  m_Layer: 0
+  m_Name: GameAssets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5637477067001114245
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7680095953256873742}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6124269343868036415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7680095953256873742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9918097f8ea2a67479ae378147182a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pfProjectileArrow: {fileID: 7665248989792218970, guid: b5defc7952471ee4c8011e7a1b433482, type: 3}
+  pfEnemy: {fileID: 1203426526517164879, guid: 8914f40e0068b0147b6a283cfed1fb78, type: 3}
+  pfTower: {fileID: 4614524492623230087, guid: da1a673a40a89554a8085c4b3a9d4fe9, type: 3}
+  pfHealthBar: {fileID: 1341691135446557663, guid: 35ec56894ca16bd41aa8b85ff16c6557, type: 3}
+  pfFastEnemy: {fileID: 7306421542606758018, guid: c168b1b0cbc981c4a8e554387436618d, type: 3}
+  pfTankEnemy: {fileID: 6507243896386415247, guid: 400c908855dfe7547b2ffd4862b05fff, type: 3}
+  pfExplodingEnemy: {fileID: 2445529645150866535, guid: a79d3da273bc50e41b841bf38cc33a82, type: 3}
+  pfHealingEnemy: {fileID: 7727731140830870920, guid: 640418eeb9cd6004d9baea69313b36b5, type: 3}
+  pfWizardTower: {fileID: 4614524492623230087, guid: d45b4b720d531d44dad86bd885a04c82, type: 3}
+  pfFireTower: {fileID: 4614524492623230087, guid: d1e0307c8c999d248ad083f286d0a79a, type: 3}
+  pfIceTower: {fileID: 4614524492623230087, guid: 893a731f6051d934cb80cc9a6b5d7bb0, type: 3}
+  pfFireArrow: {fileID: 7665248989792218970, guid: bf036f099b4874b4a9985751e0068d9e, type: 3}
+  pfIceArrow: {fileID: 7665248989792218970, guid: 20802cb88b092824180a3b891814fc19, type: 3}
+  pfKitchen: {fileID: 2893796851131885028, guid: c2520d738faf2114a855e39bab39b52b, type: 3}
+  pfProjectileMagic: {fileID: 7981439664883707951, guid: c6727511727856a45bf1e4ce183a87cd, type: 3}
+  pfSoldier: {fileID: 448564826430215705, guid: f24bbdac139aca743b51d7babee0e49f, type: 3}
+  pgBarrackTower: {fileID: 4071829035422323910, guid: 9932f57d9f663cf4499addb37fe9553a, type: 3}
